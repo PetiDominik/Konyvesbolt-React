@@ -1,0 +1,21 @@
+.App article{
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 10px;
+}
+
+
+.App header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

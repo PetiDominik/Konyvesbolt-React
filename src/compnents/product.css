@@ -1,0 +1,31 @@
+
+.Product {
+    box-sizing: border-box;
+    background: radial-gradient(#282c34, #454952);
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Product .p-footer {
+    justify-self: flex-end;
+}
+
+.Product .p-footer button {
+    background-color: #282c34;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.Product .p-footer button:hover {
+    background-color: rgb(4, 122, 24);
+    border-color: #282c34;
+}
